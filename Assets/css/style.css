@@ -83,7 +83,7 @@ section h3 {
   min-width: 25%;
 }
 
-section p {
+.section-paragraphs {
   padding-left: 30px;
 }
 
@@ -135,10 +135,10 @@ section p {
   position: absolute;
   background-color: var(--text-sub-color);
   color: var(--light-text-color);
-  margin: 58px 10px;
+  margin: 49px 10px;
 }
 .work-item p {
-  font-size: 150%;
+  font-size: 100%;
   position: absolute;
   background-color: var(--text-sub-color);
   color: var(--light-text-color);
