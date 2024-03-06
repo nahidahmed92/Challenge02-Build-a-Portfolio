@@ -98,7 +98,6 @@ section h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  /* justify-content: space-between; */
   flex: 1 0 275px;
 }
 
@@ -118,10 +117,12 @@ section h3 {
 
 .work-item:first-child {
   min-width: 100%;
+  height: auto;
 }
 
 #first-work-image {
   width: 100%;
+  aspect-ratio: 10 / 10;
   padding: 10px;
 }
 
