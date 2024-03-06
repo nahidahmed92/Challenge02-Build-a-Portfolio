@@ -11,6 +11,7 @@
   margin: 0;
   /* border: solid red;
   margin: 4px; */
+  scroll-behavior: smooth;
 }
 
 body {
