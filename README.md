@@ -10,4 +10,4 @@ https://nahidahmed92.github.io/Challenge02-Build-a-Portfolio/
 
 ## Screenshot
 
-![[Screenshot of Github Live Page]](assets/images/Screenshot.png)
+![[Screenshot of Github Live Page]](assets/images/screenshot.png)
