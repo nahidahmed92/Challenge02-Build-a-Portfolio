@@ -28,6 +28,7 @@ section h3 {
   border-right: solid 4px var(--text-color);
   text-align: end;
   min-width: 25%;
+  font-size: 35px;
 }
 
 #header {
@@ -127,7 +128,8 @@ section h3 {
   position: absolute;
   background-color: var(--text-sub-color);
   color: var(--light-text-color);
-  margin: 31px 0;
+  margin: 12px 0;
+  width: 300px;
 }
 
 .work-item:first-child {
@@ -138,13 +140,13 @@ section h3 {
 #first-work-image {
   width: 100%;
   aspect-ratio: 16 / 9;
-  /* padding: 10px; */
   object-fit: cover;
 }
 
 .work-images {
   width: 100%;
-  /* padding: 10px; */
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
 }
 
 /* Contact Info Section */
