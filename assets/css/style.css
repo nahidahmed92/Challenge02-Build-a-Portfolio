@@ -99,6 +99,7 @@ section h3 {
 #work-items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   min-width: 75%;
   padding-left: 20px;
 }
@@ -109,6 +110,8 @@ section h3 {
   flex-wrap: wrap;
   align-items: flex-end;
   flex: 1 0 275px;
+  margin: 4px;
+  border: 4px solid #003366;
 }
 
 .work-item h4 {
@@ -116,7 +119,7 @@ section h3 {
   position: absolute;
   background-color: var(--text-sub-color);
   color: var(--light-text-color);
-  margin: 49px 10px;
+  margin: 49px 0;
 }
 
 .work-item p {
@@ -124,7 +127,7 @@ section h3 {
   position: absolute;
   background-color: var(--text-sub-color);
   color: var(--light-text-color);
-  margin: 30px 10px;
+  margin: 31px 0;
 }
 
 .work-item:first-child {
@@ -134,13 +137,14 @@ section h3 {
 
 #first-work-image {
   width: 100%;
-  aspect-ratio: 10 / 10;
-  padding: 10px;
+  aspect-ratio: 16 / 9;
+  /* padding: 10px; */
+  object-fit: cover;
 }
 
 .work-images {
   width: 100%;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 /* Contact Info Section */
@@ -219,6 +223,6 @@ section h3 {
   }
 
   #nav {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
