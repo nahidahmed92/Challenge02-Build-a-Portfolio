@@ -21,6 +21,7 @@ body {
 section {
   display: flex;
   margin: 20px 40px;
+  color: var(--text-color);
 }
 
 section h3 {
@@ -29,6 +30,7 @@ section h3 {
   text-align: end;
   min-width: 25%;
   font-size: 35px;
+  /* color: var(--text-color); */
 }
 
 #header {
@@ -115,21 +117,18 @@ section h3 {
   border: 4px solid #003366;
 }
 
-.work-item h4 {
-  font-size: 150%;
-  position: absolute;
-  background-color: var(--text-sub-color);
+.work-item-text {
+  font-size: 125%;
   color: var(--light-text-color);
-  margin: 49px 0;
+  background-color: var(--text-sub-color);
+  position: absolute;
+  margin-bottom: 30px;
+  width: 300px;
 }
 
 .work-item p {
-  font-size: 100%;
-  position: absolute;
-  background-color: var(--text-sub-color);
-  color: var(--light-text-color);
-  margin: 12px 0;
-  width: 300px;
+  font-size: 75%;
+  margin-left: 10px;
 }
 
 .work-item:first-child {
