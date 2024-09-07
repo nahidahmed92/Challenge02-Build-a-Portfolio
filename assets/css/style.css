@@ -91,6 +91,7 @@ section h3 {
   height: auto;
   align-self: flex-end;
   margin: 44px 10px;
+  border-radius: 20px;
 }
 
 /* Paragraph of Sections */
